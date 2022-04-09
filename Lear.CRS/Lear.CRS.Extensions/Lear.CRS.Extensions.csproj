@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AOP\**" />
+    <Compile Remove="Authorizations\Behaviors\**" />
+    <Compile Remove="Auth\**" />
+    <EmbeddedResource Remove="AOP\**" />
+    <EmbeddedResource Remove="Authorizations\Behaviors\**" />
+    <EmbeddedResource Remove="Auth\**" />
+    <None Remove="AOP\**" />
+    <None Remove="Authorizations\Behaviors\**" />
+    <None Remove="Auth\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Middlewares\CustomExceptionHandlerMiddleware.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="5.0.4" />
+    <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.2.22" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data.SqlSugar\Lear.CRS.SqlSugarCore.csproj" />
+    <ProjectReference Include="..\Lear.CRS.IService\Lear.CRS.IService.csproj" />
+    <ProjectReference Include="..\Lear.CRS.Tasks\Lear.CRS.Tasks.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IAuthRoleService.cs" />
+    <Compile Remove="IAuthService.cs" />
+    <Compile Remove="IsysUserInfoServices.cs" />
+    <Compile Remove="IUserGroupServices.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+   <ProjectReference Include="..\Lear.CRS.Model\Lear.CRS.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,785 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.API\\Lear.CRS.API.csproj": {}
+  },
+  "projects": {
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Data.SqlSugar\\Lear.CRS.SqlSugarCore.csproj": {
+      "version": "2.1.5",
+      "restore": {
+        "projectUniqueName": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Data.SqlSugar\\Lear.CRS.SqlSugarCore.csproj",
+        "projectName": "Lear.CRS.SqlSugarCore",
+        "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Data.SqlSugar\\Lear.CRS.SqlSugarCore.csproj",
+        "packagesPath": "C:\\Users\\leslie\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Data.SqlSugar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "sqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.API\\Lear.CRS.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.API\\Lear.CRS.API.csproj",
+        "projectName": "Lear.CRS.API",
+        "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.API\\Lear.CRS.API.csproj",
+        "packagesPath": "C:\\Users\\leslie\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Extensions\\Lear.CRS.Extensions.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Extensions\\Lear.CRS.Extensions.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Service\\Lear.CRS.Service.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Service\\Lear.CRS.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.15, 5.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Common\\Lear.CRS.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Common\\Lear.CRS.Common.csproj",
+        "projectName": "Lear.CRS.Common",
+        "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Common\\Lear.CRS.Common.csproj",
+        "packagesPath": "C:\\Users\\leslie\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "InitQ": {
+              "target": "Package",
+              "version": "[1.0.0.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.5.1, )"
+            },
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "WebApiClient.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "WebApiClient.JIT": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Extensions\\Lear.CRS.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Extensions\\Lear.CRS.Extensions.csproj",
+        "projectName": "Lear.CRS.Extensions",
+        "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Extensions\\Lear.CRS.Extensions.csproj",
+        "packagesPath": "C:\\Users\\leslie\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Data.SqlSugar\\Lear.CRS.SqlSugarCore.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Data.SqlSugar\\Lear.CRS.SqlSugarCore.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Tasks\\Lear.CRS.Tasks.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Tasks\\Lear.CRS.Tasks.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "MiniProfiler.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.2.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj",
+        "projectName": "Lear.CRS.IService",
+        "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj",
+        "packagesPath": "C:\\Users\\leslie\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj",
+        "projectName": "Lear.CRS.Model",
+        "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj",
+        "packagesPath": "C:\\Users\\leslie\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Common\\Lear.CRS.Common.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Common\\Lear.CRS.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.5.1, )"
+            },
+            "UAParser": {
+              "target": "Package",
+              "version": "[3.1.47, )"
+            },
+            "Yitter.IdGenerator": {
+              "target": "Package",
+              "version": "[1.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Service\\Lear.CRS.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Service\\Lear.CRS.Service.csproj",
+        "projectName": "Lear.CRS.Service",
+        "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Service\\Lear.CRS.Service.csproj",
+        "packagesPath": "C:\\Users\\leslie\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Data.SqlSugar\\Lear.CRS.SqlSugarCore.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Data.SqlSugar\\Lear.CRS.SqlSugarCore.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Common\\Lear.CRS.Common.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Common\\Lear.CRS.Common.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Model\\Lear.CRS.Model.csproj"
+              },
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Tasks\\Lear.CRS.Tasks.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Tasks\\Lear.CRS.Tasks.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Tasks\\Lear.CRS.Tasks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Tasks\\Lear.CRS.Tasks.csproj",
+        "projectName": "Lear.CRS.Tasks",
+        "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Tasks\\Lear.CRS.Tasks.csproj",
+        "packagesPath": "C:\\Users\\leslie\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.Tasks\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj": {
+                "projectPath": "D:\\work\\Project\\test_project\\leardemo\\Lear_Project\\Lear.CRS\\Lear.CRS.IService\\Lear.CRS.IService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

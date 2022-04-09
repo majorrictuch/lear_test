@@ -1,0 +1,12 @@
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\bin\Debug\net5.0\Lear.CRS.Common.deps.json
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\bin\Debug\net5.0\Lear.CRS.Common.dll
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\bin\Debug\net5.0\Lear.CRS.Common.pdb
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\Lear.CRS.Common.csproj.AssemblyReference.cache
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\Lear.CRS.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\Lear.CRS.Common.AssemblyInfoInputs.cache
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\Lear.CRS.Common.AssemblyInfo.cs
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\Lear.CRS.Common.csproj.CoreCompileInputs.cache
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\Lear.CRS.Common.dll
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\refint\Lear.CRS.Common.dll
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\Lear.CRS.Common.pdb
+D:\work\Project\leardemo\Lear.CRS\Lear.CRS.Common\obj\Debug\net5.0\ref\Lear.CRS.Common.dll

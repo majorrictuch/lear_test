@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AuthService.cs" />
+    <Compile Remove="sysUserInfoServices.cs" />
+    <Compile Remove="UserGroupServices.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.2.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data.SqlSugar\Lear.CRS.SqlSugarCore.csproj" />
+    <ProjectReference Include="..\Lear.CRS.Common\Lear.CRS.Common.csproj" />
+    <ProjectReference Include="..\Lear.CRS.IService\Lear.CRS.IService.csproj" />
+    <ProjectReference Include="..\Lear.CRS.Model\Lear.CRS.Model.csproj" />
+    <ProjectReference Include="..\Lear.CRS.Tasks\Lear.CRS.Tasks.csproj" />
+  </ItemGroup>
+
+</Project>

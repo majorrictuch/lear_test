@@ -1,0 +1,680 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lear.CRS.API</name>
+    </assembly>
+    <members>
+        <member name="T:Lear.CRS.API.Controllers.ContentController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentController.#ctor(Lear.CRS.IServices.IContentServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentController.UpdateContent(System.Collections.Generic.List{Lear.CRS.Model.UpdateContentInput})">
+            <summary>
+            日报保存
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentController.GetContent(Lear.CRS.Model.ContentInput)">
+            <summary>
+            日报查询
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.ContentPeriodController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentPeriodController.#ctor(Lear.CRS.IServices.IContentServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentPeriodController.UpdateContentPeriod(System.Collections.Generic.List{Lear.CRS.Model.UpdateContentPeriodInput})">
+            <summary>
+            修改
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentPeriodController.GetContentPeriod(Lear.CRS.Model.ContentPeriodInput)">
+            <summary>
+            获取
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.ContentWeekController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentWeekController.#ctor(Lear.CRS.IServices.IContentServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentWeekController.UpdateContentWeek(System.Collections.Generic.List{Lear.CRS.Model.UpdateContentWeekInput})">
+            <summary>
+            新增周报
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentWeekController.GetContentWeek(Lear.CRS.Model.ContentWeekInput)">
+            <summary>
+            获取周报
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.ContentWeekViewController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentWeekViewController.#ctor(Lear.CRS.IServices.IContentServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ContentWeekViewController.AddContentWeekView(System.Collections.Generic.List{Lear.CRS.Model.ContentWeekViewInput})">
+            <summary>
+            CRS_Content_Week_View
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.DictionaryConfigController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.DictionaryConfigController.#ctor(Lear.CRS.IServices.IDictionaryConfigServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="configServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.DictionaryConfigController.AddDictionaryConfig(Lear.CRS.Model.AddDictionaryConfigInput)">
+            <summary>
+            增加字典
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.DictionaryConfigController.UpdateDictionaryConfig(Lear.CRS.Model.UpdateDictionaryConfigInput)">
+            <summary>
+            修改字典
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.DictionaryConfigController.GetDictionaryConfig(Lear.CRS.Model.DictionaryConfigInput)">
+            <summary>
+            获取字典
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.DictionaryConfigController.GetDictionaryConfigKeyValue">
+            <summary>
+            获取字典key-value
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.DictionaryConfigController.GetWeekValue">
+            <summary>
+            获取周时间key-value
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.DictionaryConfigController.GetPeriodValue">
+            <summary>
+            获取月时间key-value
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.FileController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.#ctor(Lear.CRS.IServices.IFileServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="fileServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.DeleteFileInfo(Lear.CRS.Model.DeleteFileInfoInput)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.DownloadFileInfo(Lear.CRS.Model.QueryFileInoInput)">
+            <summary>
+            下载文件
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.GetFileInfo(Lear.CRS.Model.QueryFileInoInput)">
+            <summary>
+            获取文件
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.GetFileInfoList(Lear.CRS.Model.QueryFileInoInput)">
+            <summary>
+            获取文件列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.PreviewFileInfo(Lear.CRS.Model.QueryFileInoInput)">
+            <summary>
+            预览文件
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.QueryFileInfoPageList(Lear.CRS.Model.QueryFileInoInput)">
+            <summary>
+            分页获取文件列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.UploadFileDocument(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            上传word
+            </summary>
+            <param name="files"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.FileController.UpdateFileDocument(Lear.CRS.Model.UpdateFileInoInput)">
+            <summary>
+            修改上传文件的上传人
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.LogController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.LogController.#ctor(Lear.CRS.IServices.ILogServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.LogController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.LogController.All(Lear.CRS.Model.LogInput)">
+            <summary>
+            获取日志列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.LoginController">
+            <summary>
+            登录管理【无权限】
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.LoginController.Login(Lear.CRS.Model.LoginInput)">
+            <summary>
+            login
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.LoginController.LoginByAd(System.String)">
+            <summary>
+            login in
+            </summary>
+            <param name="name"></param>
+            <param name="pass"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.MenuController">
+            <summary>
+            菜单管理
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.#ctor(Lear.CRS.IServices.IMenuServices,Lear.CRS.IServices.IModuleServices,Lear.CRS.IServices.IRoleModulePermissionServices,Lear.CRS.IServices.IUserRoleServices,Microsoft.AspNetCore.Http.IHttpContextAccessor,Lear.CRS.Common.HttpContextUser.IUser,Lear.CRS.AuthHelper.PermissionRequirement)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="permissionServices"></param>
+            <param name="moduleServices"></param>
+            <param name="roleModulePermissionServices"></param>
+            <param name="userRoleServices"></param>
+            <param name="httpContext"></param>
+            <param name="user"></param>
+            <param name="requirement"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.All">
+            <summary>
+            获取所有菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.Add(Lear.CRS.Model.AddMenuInput)">
+            <summary>
+            新增菜单
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.Update(Lear.CRS.Model.UpdateMenuInput)">
+            <summary>
+            更新菜单
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.Delete(System.Int64)">
+            <summary>
+            删除菜单
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.PermissionController">
+            <summary>
+            菜单管理
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.#ctor(Lear.CRS.IServices.IPermissionServices,Lear.CRS.IServices.IModuleServices,Lear.CRS.IServices.IMenuServices,Lear.CRS.IServices.IUserRoleServices,Microsoft.AspNetCore.Http.IHttpContextAccessor,Lear.CRS.Common.HttpContextUser.IUser,Lear.CRS.AuthHelper.PermissionRequirement)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="permissionServices"></param>
+            <param name="moduleServices"></param>
+            <param name="roleModulePermissionServices"></param>
+            <param name="userRoleServices"></param>
+            <param name="httpContext"></param>
+            <param name="user"></param>
+            <param name="requirement"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.GetMenus">
+            <summary>
+            获取所有菜单(当前登录用户)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.GetPlanDepartment">
+            <summary>
+            获取所有工厂-部门(当前登录用户)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.GetMenuTree">
+            <summary>
+            获取菜单树
+            </summary>
+            <param name="pid"></param>
+            <param name="needbtn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.Assign(Lear.CRS.Model.Dto.AssignInput)">
+            <summary>
+            角色配置权限
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.UserBind(Lear.CRS.Model.Dto.UserBindInput)">
+            <summary>
+            分配角色和资源组
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.GetAssignByRoleId(System.Int64)">
+            <summary>
+            通过角色获取菜单【无权限】
+            </summary>
+            <param name="rid"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.PlanController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PlanController.#ctor(Lear.CRS.IServices.IContentServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PlanController.AddPlan(System.Collections.Generic.List{Lear.CRS.Model.AddPlanInput})">
+            <summary>
+            新增计划
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PlanController.UpdatePlan(System.Collections.Generic.List{Lear.CRS.Model.UpdatePlanInput})">
+            <summary>
+            修改计划
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PlanController.GetPlan(Lear.CRS.Model.PlanInput)">
+            <summary>
+            获取计划
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.ProjectController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ProjectController.#ctor(Lear.CRS.IServices.IProjectServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="projectServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ProjectController.AddProject(System.Collections.Generic.List{Lear.CRS.Model.ProjectAddInput})">
+            <summary>
+            新增项目
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ProjectController.UpdateProject(System.Collections.Generic.List{Lear.CRS.Model.ProjectAddInput})">
+            <summary>
+            更新项目
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ProjectController.GetProject(Lear.CRS.Model.ProjectInput)">
+            <summary>
+            获取项目明细
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.ReportController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ReportController.#ctor(Lear.CRS.IServices.IReprotServices,Lear.CRS.IServices.IContentServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="reportServices"></param>
+            <param name="contentServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.ResourceController">
+            <summary>
+            资源管理
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.RoleController">
+            <summary>
+            角色管理
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.RoleController.All(Lear.CRS.Model.QueryRoleInput)">
+            <summary>
+            获取全部角色
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.RoleController.Add(Lear.CRS.Model.AddRoleInput)">
+            <summary>
+            添加角色
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.RoleController.Update(Lear.CRS.Model.UpdateRoleInput)">
+            <summary>
+            更新角色
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.RoleController.Delete(System.Int64)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.SourceGroupController">
+            <summary>
+            source group 
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.TasksQzController.GetAll">
+            <summary>
+            所有服务列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.TasksQzController.GetLogList(System.Int32)">
+            <summary>
+            执行历史
+            </summary>
+            <param name="taskId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.TasksQzController.Start(System.String)">
+            <summary>
+            启动计划任务
+            </summary>
+            <param name="jobId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.TasksQzController.Execute(System.String)">
+            <summary>
+            指定执行一个计划任务
+            </summary>
+            <param name="jobId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.TasksQzController.Stop(System.String)">
+            <summary>
+            停止计划任务
+            </summary>
+            <param name="jobId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.UserController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.#ctor(Lear.CRS.IServices.IUserServices,Lear.CRS.IServices.IUserRoleServices,Lear.CRS.IServices.IRoleServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="sysUserInfoServices"></param>
+            <param name="userRoleServices"></param>
+            <param name="roleServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.Page(Lear.CRS.Model.QueryUserInput)">
+            <summary>
+            user list
+            </summary>
+            <param name="input">query parmas</param>
+            <returns>return user list</returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.Add(Lear.CRS.Model.AddUserInput)">
+            <summary>
+            add new user
+            </summary>
+            <param name="input">user model</param>
+            <returns>return user id</returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.Update(Lear.CRS.Model.UpdateUserInput)">
+            <summary>
+            update user for user model
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.OwnRole(System.Int64)">
+            <summary>
+            用户有用角色
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.OwnData(System.Int64)">
+            <summary>
+            用户拥有数据
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.VersionHistoryController">
+            <summary>
+            版本记录
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.VersionHistoryController.All">
+            <summary>
+            获取所有记录
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.VersionHistoryController.Add(Lear.CRS.Model.Dto.AddVersionHistoryInput)">
+            <summary>
+            添加
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.VersionHistoryController.Update(Lear.CRS.Model.Dto.UpdateVersionHistoryInput)">
+            <summary>
+            更新
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.VersionHistoryController.Delete(Lear.CRS.Model.Dto.DeleteVersionHistoryInput)">
+            <summary>
+            删除
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.SwaggerHelper.CustomRouteAttribute">
+            <summary>
+            自定义路由 /api/{version}/[controler]/[action]
+            </summary>
+        </member>
+        <member name="P:Lear.CRS.SwaggerHelper.CustomRouteAttribute.GroupName">
+            <summary>
+            分组名称,是来实现接口 IApiDescriptionGroupNameProvider
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.SwaggerHelper.CustomRouteAttribute.#ctor(System.String)">
+            <summary>
+            自定义路由构造函数，继承基类路由
+            </summary>
+            <param name="actionName"></param>
+        </member>
+        <member name="M:Lear.CRS.SwaggerHelper.CustomRouteAttribute.#ctor(Lear.CRS.Extensions.CustomApiVersion.ApiVersions,System.String)">
+            <summary>
+            自定义版本+路由构造函数，继承基类路由
+            </summary>
+            <param name="actionName"></param>
+            <param name="version"></param>
+        </member>
+        <member name="T:Lear.CRS.Filter.GlobalRouteAuthorizeConvention">
+            <summary>
+            Summary:全局路由权限公约
+            Remarks:目的是针对不同的路由，采用不同的授权过滤器
+            如果 controller 上不加 [Authorize] 特性，默认都是 Permission 策略
+            否则，如果想特例其他授权机制的话，需要在 controller 上带上  [Authorize]，然后再action上自定义授权即可，比如 [Authorize(Roles = "Admin")]
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.Filter.GlobalAuthorizeFilter">
+            <summary>
+            全局权限过滤器【无效】
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.Filter.GlobalExceptionsFilter">
+            <summary>
+            全局异常错误日志
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.Filter.GlobalExceptionsFilter.WriteLog(System.String,System.Exception)">
+            <summary>
+            自定义返回格式
+            </summary>
+            <param name="throwMsg"></param>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Lear.CRS.Filter.JsonErrorResponse.Message">
+            <summary>
+            生产环境的消息
+            </summary>
+        </member>
+        <member name="P:Lear.CRS.Filter.JsonErrorResponse.DevelopmentMessage">
+            <summary>
+            开发环境的消息
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.Filter.GlobalRoutePrefixFilter">
+            <summary>
+            全局路由前缀公约
+            </summary>
+        </member>
+    </members>
+</doc>

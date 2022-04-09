@@ -1,0 +1,12 @@
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\bin\Debug\net5.0\Lear.CRS.SqlSugarCore.deps.json
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\bin\Debug\net5.0\Lear.CRS.SqlSugarCore.dll
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\bin\Debug\net5.0\Lear.CRS.SqlSugarCore.pdb
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\Lear.CRS.SqlSugarCore.csproj.AssemblyReference.cache
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\Lear.CRS.SqlSugarCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\Lear.CRS.SqlSugarCore.AssemblyInfoInputs.cache
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\Lear.CRS.SqlSugarCore.AssemblyInfo.cs
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\Lear.CRS.SqlSugarCore.csproj.CoreCompileInputs.cache
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\Lear.CRS.SqlSugarCore.dll
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\refint\Lear.CRS.SqlSugarCore.dll
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\Lear.CRS.SqlSugarCore.pdb
+D:\work\Project\leardemo\Lear.CRS\Data.SqlSugar\obj\Debug\net5.0\ref\Lear.CRS.SqlSugarCore.dll

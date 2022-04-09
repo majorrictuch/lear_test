@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lear.CRS.API</name>
+    </assembly>
+    <members>
+        <member name="T:Lear.CRS.API.Controllers.LoginController">
+            <summary>
+            登录管理【无权限】
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.LoginController.Login(System.String,System.String)">
+            <summary>
+            获取JWT的方法
+            </summary>
+            <param name="name"></param>
+            <param name="pass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.LoginController.Md5Password(System.String)">
+            <summary>
+            测试 MD5 加密字符串
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.ModuleController">
+            <summary>
+            接口管理
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ModuleController.List(Lear.CRS.Model.QueryModuleInput)">
+            <summary>
+            获取全部接口api
+            </summary>
+            <param name="page"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ModuleController.ListByParentId(System.Int64)">
+            <summary>
+            根据父级id获取接口列表
+            </summary>
+            <param name="page"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ModuleController.Add(Lear.CRS.Model.AddModuleInput)">
+            <summary>
+            添加一条接口信息
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ModuleController.Update(Lear.CRS.Model.UpdateModuleInput)">
+            <summary>
+            更新接口信息
+            </summary>
+            <param name="module"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.ModuleController.Delete(System.Int64)">
+            <summary>
+            删除一条接口
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.ResourceController">
+            <summary>
+            角色管理
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.RoleController">
+            <summary>
+            角色管理
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.RoleController.List(Lear.CRS.Model.QueryRoleInput)">
+            <summary>
+            获取全部角色
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.RoleController.Add(Lear.CRS.Model.AddRoleInput)">
+            <summary>
+            添加角色
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.RoleController.Update(Lear.CRS.Model.UpdateRoleInput)">
+            <summary>
+            更新角色
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.RoleController.Delete(Lear.CRS.Model.DeleteRoleInput)">
+            <summary>
+            
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.SourceGroupController">
+            <summary>
+            source group 
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.UserController">
+            <summary>
+            User module
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.#ctor(Lear.CRS.IRepository.IUnitOfWork,Lear.CRS.IServices.IUserServices,Lear.CRS.IServices.IUserRoleServices,Lear.CRS.IServices.IRoleServices,Lear.CRS.Common.HttpContextUser.IUser,Microsoft.Extensions.Logging.ILogger{Lear.CRS.API.Controllers.UserController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="unitOfWork"></param>
+            <param name="sysUserInfoServices"></param>
+            <param name="userRoleServices"></param>
+            <param name="roleServices"></param>
+            <param name="user"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.Page(Lear.CRS.Model.QueryUserInput)">
+            <summary>
+            user list
+            </summary>
+            <param name="input">query parmas</param>
+            <returns>return user list</returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.Add(Lear.CRS.Model.AddUserInput)">
+            <summary>
+            add new user
+            </summary>
+            <param name="input">user model</param>
+            <returns>return user id</returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.Update(Lear.CRS.Model.UpdateUserInput)">
+            <summary>
+            update user for user model
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserController.Delete(System.Int64)">
+            <summary>
+            delete user for user id
+            </summary>
+            <param name="id">user id</param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.UserRoleController">
+            <summary>
+            用户角色关系
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserRoleController.#ctor(Lear.CRS.IServices.IUserServices,Lear.CRS.IServices.IUserRoleServices,Lear.CRS.IServices.IRoleServices)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="sysUserInfoServices"></param>
+            <param name="userRoleServices"></param>
+            <param name="roleServices"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserRoleController.AddUser(Lear.CRS.Model.AddUserInput)">
+            <summary>
+            新建用户
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserRoleController.AddRole(System.String)">
+            <summary>
+            新建Role
+            </summary>
+            <param name="roleName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.UserRoleController.AddUserRole(System.Int32,System.Int32)">
+            <summary>
+            新建用户角色关系
+            </summary>
+            <param name="uid">用户id</param>
+            <param name="rid">角色id</param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.SwaggerHelper.CustomRouteAttribute">
+            <summary>
+            自定义路由 /api/{version}/[controler]/[action]
+            </summary>
+        </member>
+        <member name="P:Lear.CRS.SwaggerHelper.CustomRouteAttribute.GroupName">
+            <summary>
+            分组名称,是来实现接口 IApiDescriptionGroupNameProvider
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.SwaggerHelper.CustomRouteAttribute.#ctor(System.String)">
+            <summary>
+            自定义路由构造函数，继承基类路由
+            </summary>
+            <param name="actionName"></param>
+        </member>
+        <member name="M:Lear.CRS.SwaggerHelper.CustomRouteAttribute.#ctor(Lear.CRS.Extensions.CustomApiVersion.ApiVersions,System.String)">
+            <summary>
+            自定义版本+路由构造函数，继承基类路由
+            </summary>
+            <param name="actionName"></param>
+            <param name="version"></param>
+        </member>
+        <member name="T:Lear.CRS.Filter.GlobalRouteAuthorizeConvention">
+            <summary>
+            Summary:全局路由权限公约
+            Remarks:目的是针对不同的路由，采用不同的授权过滤器
+            如果 controller 上不加 [Authorize] 特性，默认都是 Permission 策略
+            否则，如果想特例其他授权机制的话，需要在 controller 上带上  [Authorize]，然后再action上自定义授权即可，比如 [Authorize(Roles = "Admin")]
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.Filter.GlobalAuthorizeFilter">
+            <summary>
+            全局权限过滤器【无效】
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.Filter.GlobalExceptionsFilter">
+            <summary>
+            全局异常错误日志
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.Filter.GlobalExceptionsFilter.WriteLog(System.String,System.Exception)">
+            <summary>
+            自定义返回格式
+            </summary>
+            <param name="throwMsg"></param>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Lear.CRS.Filter.JsonErrorResponse.Message">
+            <summary>
+            生产环境的消息
+            </summary>
+        </member>
+        <member name="P:Lear.CRS.Filter.JsonErrorResponse.DevelopmentMessage">
+            <summary>
+            开发环境的消息
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.Filter.GlobalRoutePrefixFilter">
+            <summary>
+            全局路由前缀公约
+            </summary>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.MenuController">
+            <summary>
+            菜单管理
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.#ctor(Lear.CRS.IServices.IMenuServices,Lear.CRS.IServices.IModuleServices,Lear.CRS.IServices.IRoleModulePermissionServices,Lear.CRS.IServices.IUserRoleServices,Microsoft.AspNetCore.Http.IHttpContextAccessor,Lear.CRS.Common.HttpContextUser.IUser,Lear.CRS.AuthHelper.PermissionRequirement)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="permissionServices"></param>
+            <param name="moduleServices"></param>
+            <param name="roleModulePermissionServices"></param>
+            <param name="userRoleServices"></param>
+            <param name="httpContext"></param>
+            <param name="user"></param>
+            <param name="requirement"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.All">
+            <summary>
+            获取所有菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.Add(Lear.CRS.Model.AddMenuInput)">
+            <summary>
+            新增菜单
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.Update(Lear.CRS.Model.UpdateMenuInput)">
+            <summary>
+            更新菜单
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.MenuController.Delete(Lear.CRS.Model.DeleteMenuInput)">
+            <summary>
+            删除菜单
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lear.CRS.API.Controllers.PermissionController">
+            <summary>
+            菜单管理
+            </summary>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.#ctor(Lear.CRS.IServices.IPermissionServices,Lear.CRS.IServices.IModuleServices,Lear.CRS.IServices.IMenuServices,Lear.CRS.IServices.IUserRoleServices,Microsoft.AspNetCore.Http.IHttpContextAccessor,Lear.CRS.Common.HttpContextUser.IUser,Lear.CRS.AuthHelper.PermissionRequirement)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="permissionServices"></param>
+            <param name="moduleServices"></param>
+            <param name="roleModulePermissionServices"></param>
+            <param name="userRoleServices"></param>
+            <param name="httpContext"></param>
+            <param name="user"></param>
+            <param name="requirement"></param>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.GetMenus">
+            <summary>
+            获取所有菜单(当前登录用户)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.GetMenuTree">
+            <summary>
+            获取菜单树
+            </summary>
+            <param name="pid"></param>
+            <param name="needbtn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lear.CRS.API.Controllers.PermissionController.GetAssignByRoleId(System.Int64)">
+            <summary>
+            通过角色获取菜单【无权限】
+            </summary>
+            <param name="rid"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

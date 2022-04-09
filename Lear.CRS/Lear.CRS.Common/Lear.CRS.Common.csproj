@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="App\**" />
+    <Compile Remove="ConfigurableOptions\**" />
+    <Compile Remove="CorsAccessor\**" />
+    <Compile Remove="Extensions\**" />
+    <Compile Remove="LogHelper\Seri\**" />
+    <EmbeddedResource Remove="App\**" />
+    <EmbeddedResource Remove="ConfigurableOptions\**" />
+    <EmbeddedResource Remove="CorsAccessor\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <EmbeddedResource Remove="LogHelper\Seri\**" />
+    <None Remove="App\**" />
+    <None Remove="ConfigurableOptions\**" />
+    <None Remove="CorsAccessor\**" />
+    <None Remove="Extensions\**" />
+    <None Remove="LogHelper\Seri\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Helper\DynamicLinqFactory.cs" />
+    <Compile Remove="LogHelper\ILoggerHelper.cs" />
+    <Compile Remove="LogHelper\LogHelper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.3" />
+    <PackageReference Include="InitQ" Version="1.0.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="SqlSugarCore" Version="5.0.5.1" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="6.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+    <PackageReference Include="WebApiClient.Extensions.DependencyInjection" Version="2.0.3" />
+    <PackageReference Include="WebApiClient.JIT" Version="1.1.4" />
+
+  </ItemGroup>
+
+</Project>
